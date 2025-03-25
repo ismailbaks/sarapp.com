@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+body{
+    background-image: url(klara-kulikova-CPMZguYURMw-unsplash.jpg);
+    background-position: cover;
+    background-position: center;
+}
+
+
+
+
+.shade{
+    background-color:gray;
+    height: 600px;
+    width: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 20px;
+    border: 5px solid white;
+    backdrop-filter: blur(10px);
+    opacity: 0.9;
+
+
+    
+}
+
+.shade ul {
+    list-style: none;
+    display: flex;
+    column-gap: 170px;
+    margin-top: 35%;
+
+}
+
+.shade ul li{
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 50px;
+    padding: 5px;
+    color: white;
+
+
+}
+
+.shade ul li:hover{
+    transform: translateY(-5px);
+}
+
+
+.yes{
+    background-color: green;
+
+
+}
+
+.no{
+    background-color: red;
+}
+
+
+h1{
+    font-size: 50px;
+    margin-bottom: 50%;
+    position: absolute;
+    color: white;
+    font-family: serif;
+
+ 
+}
+
+
+
+
+ 
+
